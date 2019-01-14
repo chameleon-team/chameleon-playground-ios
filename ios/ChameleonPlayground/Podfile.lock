@@ -1,0 +1,106 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - Chameleon (0.1.0):
+    - JSONModel
+    - Masonry (~> 0.6.3)
+  - DoubleConversion (1.1.6)
+  - Folly (2016.10.31.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
+  - JSONModel (1.8.0)
+  - Masonry (0.6.4)
+  - React/Core (0.57.6):
+    - yoga (= 0.57.6.React)
+  - React/CxxBridge (0.57.6):
+    - Folly (= 2016.10.31.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.57.6):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2016.10.31.00)
+    - React/jschelpers
+    - React/jsinspector
+  - React/DevSupport (0.57.6):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.57.6)
+  - React/jschelpers (0.57.6):
+    - Folly (= 2016.10.31.00)
+    - React/PrivateDatabase
+  - React/jsinspector (0.57.6)
+  - React/PrivateDatabase (0.57.6)
+  - React/RCTBlob (0.57.6):
+    - React/Core
+  - React/RCTNetwork (0.57.6):
+    - React/Core
+  - React/RCTText (0.57.6):
+    - React/Core
+  - React/RCTWebSocket (0.57.6):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SocketRocket (0.5.1)
+  - WeexSDK (0.19.0.2)
+  - yoga (0.57.6.React)
+
+DEPENDENCIES:
+  - Chameleon (from `../chameleon-sdk-iOS/Chamleon`)
+  - DoubleConversion (from `../chameleon-sdk-iOS/Chamleon/react_native/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `../chameleon-sdk-iOS/Chamleon/react_native/node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../chameleon-sdk-iOS/Chamleon/react_native/node_modules/react-native/third-party-podspecs/GLog.podspec`)
+  - React/Core (from `../chameleon-sdk-iOS/Chamleon/react_native/node_modules/react-native`)
+  - React/CxxBridge (from `../chameleon-sdk-iOS/Chamleon/react_native/node_modules/react-native`)
+  - React/DevSupport (from `../chameleon-sdk-iOS/Chamleon/react_native/node_modules/react-native`)
+  - React/RCTNetwork (from `../chameleon-sdk-iOS/Chamleon/react_native/node_modules/react-native`)
+  - React/RCTText (from `../chameleon-sdk-iOS/Chamleon/react_native/node_modules/react-native`)
+  - React/RCTWebSocket (from `../chameleon-sdk-iOS/Chamleon/react_native/node_modules/react-native`)
+  - SDWebImage (= 3.7.6)
+  - SocketRocket
+  - WeexSDK (~> 0.19.0.2)
+  - yoga (from `../chameleon-sdk-iOS/Chamleon/react_native/node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - boost-for-react-native
+    - JSONModel
+    - Masonry
+    - SDWebImage
+    - SocketRocket
+    - WeexSDK
+
+EXTERNAL SOURCES:
+  Chameleon:
+    :path: "../chameleon-sdk-iOS/Chamleon"
+  DoubleConversion:
+    :podspec: "../chameleon-sdk-iOS/Chamleon/react_native/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "../chameleon-sdk-iOS/Chamleon/react_native/node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../chameleon-sdk-iOS/Chamleon/react_native/node_modules/react-native/third-party-podspecs/GLog.podspec"
+  React:
+    :path: "../chameleon-sdk-iOS/Chamleon/react_native/node_modules/react-native"
+  yoga:
+    :path: "../chameleon-sdk-iOS/Chamleon/react_native/node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  Chameleon: b8c688cda739755d510b3eaaa409f8ef9734ac92
+  DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
+  Folly: c89ac2d5c6ab169cd7397ef27485c44f35f742c7
+  glog: e8acf0ebbf99759d3ff18c86c292a5898282dcde
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  WeexSDK: 0515e386d0eae3400ed8e55f31f198ae35acce44
+  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
+
+PODFILE CHECKSUM: 5c832514075b1a8f7ec80b5eb67f588a14b74a76
+
+COCOAPODS: 1.5.3

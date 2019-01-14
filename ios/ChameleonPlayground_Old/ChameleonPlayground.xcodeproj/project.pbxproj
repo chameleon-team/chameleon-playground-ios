@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45A28FA821ECB52E009940AD /* AppIconAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A28F8B21ECB52E009940AD /* AppIconAssets.xcassets */; };
+		45A28FC221ECB5B0009940AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE755121ECAEDE00A71956 /* main.m */; };
+		45A28FC321ECB5B0009940AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE754B21ECAEDD00A71956 /* ViewController.m */; };
+		45A28FC421ECB5B0009940AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A28F8C21ECB52E009940AD /* AppDelegate.m */; };
+		45A28FC521ECB5D8009940AD /* OpenPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A28F8321ECB4E5009940AD /* OpenPage.m */; };
+		45A28FC821ECB5D8009940AD /* PlaygroundUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A28F8621ECB4E5009940AD /* PlaygroundUtil.m */; };
+		45A28FC921ECB5D8009940AD /* WXEventModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE752421ECAEDD00A71956 /* WXEventModule.m */; };
+		45A28FCE21ECB5D8009940AD /* CMLWeexRenderPage+Playground.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE752921ECAEDD00A71956 /* CMLWeexRenderPage+Playground.m */; };
+		45A28FCF21ECB5D8009940AD /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE752A21ECAEDD00A71956 /* WXImgLoaderDefaultImpl.m */; };
+		45A28FD021ECB5D8009940AD /* WXTitleBarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE752B21ECAEDD00A71956 /* WXTitleBarModule.m */; };
+		45A28FD221ECB5D8009940AD /* WXScannerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE752121ECAEDD00A71956 /* WXScannerVC.m */; };
+		45A28FFA21ECB93A009940AD /* OpenPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A28F8321ECB4E5009940AD /* OpenPage.m */; };
+		45A28FFB21ECB93A009940AD /* PlaygroundUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A28F8621ECB4E5009940AD /* PlaygroundUtil.m */; };
+		45A28FFC21ECB93A009940AD /* WXEventModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE752421ECAEDD00A71956 /* WXEventModule.m */; };
+		45A28FFD21ECB93A009940AD /* CMLWeexRenderPage+Playground.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE752921ECAEDD00A71956 /* CMLWeexRenderPage+Playground.m */; };
+		45A28FFE21ECB93A009940AD /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE752A21ECAEDD00A71956 /* WXImgLoaderDefaultImpl.m */; };
+		45A28FFF21ECB93A009940AD /* WXTitleBarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE752B21ECAEDD00A71956 /* WXTitleBarModule.m */; };
+		45A2900021ECB93A009940AD /* WXScannerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE752121ECAEDD00A71956 /* WXScannerVC.m */; };
+		45A2900121ECB93A009940AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE755121ECAEDE00A71956 /* main.m */; };
+		45A2900221ECB93A009940AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE754B21ECAEDD00A71956 /* ViewController.m */; };
+		45A2900321ECB93A009940AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A28F8C21ECB52E009940AD /* AppDelegate.m */; };
+		45A2900521ECB93A009940AD /* libPods-CMLPlayground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 791CBE41C83C6F3A7B59E589 /* libPods-CMLPlayground.a */; };
+		45A2900721ECB93A009940AD /* AppIconAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A28F8B21ECB52E009940AD /* AppIconAssets.xcassets */; };
+		A0899365F055E919B0A71A40 /* libPods-CMLPlayground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 791CBE41C83C6F3A7B59E589 /* libPods-CMLPlayground.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030193C33FCAFF46C57925CD /* Pods-ChameleonPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChameleonPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChameleonPlayground/Pods-ChameleonPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		081E794E89A966E582673D68 /* Pods-CMLPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMLPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-CMLPlayground/Pods-CMLPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		45A28F8321ECB4E5009940AD /* OpenPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenPage.m; sourceTree = "<group>"; };
+		45A28F8421ECB4E5009940AD /* PlaygroundUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaygroundUtil.h; sourceTree = "<group>"; };
+		45A28F8521ECB4E5009940AD /* OpenPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenPage.h; sourceTree = "<group>"; };
+		45A28F8621ECB4E5009940AD /* PlaygroundUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaygroundUtil.m; sourceTree = "<group>"; };
+		45A28F8A21ECB52E009940AD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		45A28F8B21ECB52E009940AD /* AppIconAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIconAssets.xcassets; sourceTree = SOURCE_ROOT; };
+		45A28F8C21ECB52E009940AD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		45A28F8D21ECB52E009940AD /* DemoDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoDefine.h; sourceTree = SOURCE_ROOT; };
+		45A2900C21ECB93A009940AD /* Chameleon Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chameleon Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DE750721ECADE100A71956 /* Chameleon Playground Old.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chameleon Playground Old.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DE752021ECAEDD00A71956 /* WXScannerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXScannerVC.h; sourceTree = "<group>"; };
+		45DE752121ECAEDD00A71956 /* WXScannerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXScannerVC.m; sourceTree = "<group>"; };
+		45DE752421ECAEDD00A71956 /* WXEventModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXEventModule.m; sourceTree = "<group>"; };
+		45DE752521ECAEDD00A71956 /* CMLWeexRenderPage+Playground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CMLWeexRenderPage+Playground.h"; sourceTree = "<group>"; };
+		45DE752621ECAEDD00A71956 /* WXTitleBarModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXTitleBarModule.h; sourceTree = "<group>"; };
+		45DE752721ECAEDD00A71956 /* WXImgLoaderDefaultImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderDefaultImpl.h; sourceTree = "<group>"; };
+		45DE752821ECAEDD00A71956 /* WXEventModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXEventModule.h; sourceTree = "<group>"; };
+		45DE752921ECAEDD00A71956 /* CMLWeexRenderPage+Playground.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CMLWeexRenderPage+Playground.m"; sourceTree = "<group>"; };
+		45DE752A21ECAEDD00A71956 /* WXImgLoaderDefaultImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXImgLoaderDefaultImpl.m; sourceTree = "<group>"; };
+		45DE752B21ECAEDD00A71956 /* WXTitleBarModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXTitleBarModule.m; sourceTree = "<group>"; };
+		45DE754B21ECAEDD00A71956 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = SOURCE_ROOT; };
+		45DE755121ECAEDE00A71956 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45DE755221ECAEDE00A71956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45DE755521ECAEDE00A71956 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = SOURCE_ROOT; };
+		56FAE8C6EE2FAAE95414A1CF /* Pods-CMLPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMLPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMLPlayground/Pods-CMLPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		791CBE41C83C6F3A7B59E589 /* libPods-CMLPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CMLPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A1547BD19AB46F25285F42 /* Pods-ChameleonPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChameleonPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChameleonPlayground/Pods-ChameleonPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		D6E1A90974DFC1B19F318B0D /* libPods-ChameleonPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChameleonPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45A2900421ECB93A009940AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A2900521ECB93A009940AD /* libPods-CMLPlayground.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DE750421ECADE100A71956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0899365F055E919B0A71A40 /* libPods-CMLPlayground.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45A28F8221ECB4E5009940AD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				45A28F8321ECB4E5009940AD /* OpenPage.m */,
+				45A28F8421ECB4E5009940AD /* PlaygroundUtil.h */,
+				45A28F8521ECB4E5009940AD /* OpenPage.h */,
+				45A28F8621ECB4E5009940AD /* PlaygroundUtil.m */,
+			);
+			path = Util;
+			sourceTree = SOURCE_ROOT;
+		};
+		45DE742221ECA31B00A71956 = {
+			isa = PBXGroup;
+			children = (
+				45DE742D21ECA31B00A71956 /* CMLPlayground */,
+				45DE742C21ECA31B00A71956 /* Products */,
+				A3A526444B53A0A99AD5CF78 /* Pods */,
+				D3E730F98151BBF3DA46D736 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45DE742C21ECA31B00A71956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45DE750721ECADE100A71956 /* Chameleon Playground Old.app */,
+				45A2900C21ECB93A009940AD /* Chameleon Playground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45DE742D21ECA31B00A71956 /* CMLPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				45A28F8221ECB4E5009940AD /* Util */,
+				45DE752321ECAEDD00A71956 /* extend */,
+				45DE751F21ECAEDD00A71956 /* Scanner */,
+				45DE755021ECAEDE00A71956 /* Supporting Files */,
+				45DE755521ECAEDE00A71956 /* ViewController.h */,
+				45DE754B21ECAEDD00A71956 /* ViewController.m */,
+				45A28F8D21ECB52E009940AD /* DemoDefine.h */,
+				45A28F8A21ECB52E009940AD /* AppDelegate.h */,
+				45A28F8C21ECB52E009940AD /* AppDelegate.m */,
+				45A28F8B21ECB52E009940AD /* AppIconAssets.xcassets */,
+			);
+			path = CMLPlayground;
+			sourceTree = "<group>";
+		};
+		45DE751F21ECAEDD00A71956 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				45DE752021ECAEDD00A71956 /* WXScannerVC.h */,
+				45DE752121ECAEDD00A71956 /* WXScannerVC.m */,
+			);
+			path = Scanner;
+			sourceTree = SOURCE_ROOT;
+		};
+		45DE752321ECAEDD00A71956 /* extend */ = {
+			isa = PBXGroup;
+			children = (
+				45DE752421ECAEDD00A71956 /* WXEventModule.m */,
+				45DE752521ECAEDD00A71956 /* CMLWeexRenderPage+Playground.h */,
+				45DE752621ECAEDD00A71956 /* WXTitleBarModule.h */,
+				45DE752721ECAEDD00A71956 /* WXImgLoaderDefaultImpl.h */,
+				45DE752821ECAEDD00A71956 /* WXEventModule.h */,
+				45DE752921ECAEDD00A71956 /* CMLWeexRenderPage+Playground.m */,
+				45DE752A21ECAEDD00A71956 /* WXImgLoaderDefaultImpl.m */,
+				45DE752B21ECAEDD00A71956 /* WXTitleBarModule.m */,
+			);
+			path = extend;
+			sourceTree = SOURCE_ROOT;
+		};
+		45DE755021ECAEDE00A71956 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45DE755121ECAEDE00A71956 /* main.m */,
+				45DE755221ECAEDE00A71956 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		A3A526444B53A0A99AD5CF78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6A1547BD19AB46F25285F42 /* Pods-ChameleonPlayground.debug.xcconfig */,
+				030193C33FCAFF46C57925CD /* Pods-ChameleonPlayground.release.xcconfig */,
+				56FAE8C6EE2FAAE95414A1CF /* Pods-CMLPlayground.debug.xcconfig */,
+				081E794E89A966E582673D68 /* Pods-CMLPlayground.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3E730F98151BBF3DA46D736 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6E1A90974DFC1B19F318B0D /* libPods-ChameleonPlayground.a */,
+				791CBE41C83C6F3A7B59E589 /* libPods-CMLPlayground.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45A28FF721ECB93A009940AD /* Chameleon Playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A2900921ECB93A009940AD /* Build configuration list for PBXNativeTarget "Chameleon Playground" */;
+			buildPhases = (
+				45A28FF821ECB93A009940AD /* [CP] Check Pods Manifest.lock */,
+				45A28FF921ECB93A009940AD /* Sources */,
+				45A2900421ECB93A009940AD /* Frameworks */,
+				45A2900621ECB93A009940AD /* Resources */,
+				45A2900821ECB93A009940AD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chameleon Playground";
+			productName = Playground;
+			productReference = 45A2900C21ECB93A009940AD /* Chameleon Playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45DE750621ECADE100A71956 /* Chameleon Playground Old */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45DE751C21ECADE300A71956 /* Build configuration list for PBXNativeTarget "Chameleon Playground Old" */;
+			buildPhases = (
+				BBBD2B4B42055EEFD93947F2 /* [CP] Check Pods Manifest.lock */,
+				45DE750321ECADE100A71956 /* Sources */,
+				45DE750421ECADE100A71956 /* Frameworks */,
+				45DE750521ECADE100A71956 /* Resources */,
+				3B681B13C25637195149CDFA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chameleon Playground Old";
+			productName = Playground;
+			productReference = 45DE750721ECADE100A71956 /* Chameleon Playground Old.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45DE742321ECA31B00A71956 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = gaozhenze;
+				TargetAttributes = {
+					45DE750621ECADE100A71956 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 45DE742621ECA31B00A71956 /* Build configuration list for PBXProject "ChameleonPlayground" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45DE742221ECA31B00A71956;
+			productRefGroup = 45DE742C21ECA31B00A71956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45DE750621ECADE100A71956 /* Chameleon Playground Old */,
+				45A28FF721ECB93A009940AD /* Chameleon Playground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45A2900621ECB93A009940AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A2900721ECB93A009940AD /* AppIconAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DE750521ECADE100A71956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A28FA821ECB52E009940AD /* AppIconAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B681B13C25637195149CDFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CMLPlayground/Pods-CMLPlayground-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Chameleon/Chameleon.bundle",
+				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
+				"${PODS_ROOT}/WeexSDK/pre-build/weex-main-jsfm.js",
+				"${PODS_ROOT}/WeexSDK/pre-build/weex-polyfill.js",
+				"${PODS_ROOT}/WeexSDK/pre-build/weex-rax-api.js",
+				"${PODS_ROOT}/WeexSDK/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Chameleon.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/weex-main-jsfm.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/weex-polyfill.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/weex-rax-api.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CMLPlayground/Pods-CMLPlayground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45A28FF821ECB93A009940AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CMLPlayground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45A2900821ECB93A009940AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CMLPlayground/Pods-CMLPlayground-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Chameleon/Chameleon.bundle",
+				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
+				"${PODS_ROOT}/WeexSDK/pre-build/weex-main-jsfm.js",
+				"${PODS_ROOT}/WeexSDK/pre-build/weex-polyfill.js",
+				"${PODS_ROOT}/WeexSDK/pre-build/weex-rax-api.js",
+				"${PODS_ROOT}/WeexSDK/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Chameleon.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/weex-main-jsfm.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/weex-polyfill.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/weex-rax-api.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CMLPlayground/Pods-CMLPlayground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBBD2B4B42055EEFD93947F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CMLPlayground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45A28FF921ECB93A009940AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A28FFA21ECB93A009940AD /* OpenPage.m in Sources */,
+				45A28FFB21ECB93A009940AD /* PlaygroundUtil.m in Sources */,
+				45A28FFC21ECB93A009940AD /* WXEventModule.m in Sources */,
+				45A28FFD21ECB93A009940AD /* CMLWeexRenderPage+Playground.m in Sources */,
+				45A28FFE21ECB93A009940AD /* WXImgLoaderDefaultImpl.m in Sources */,
+				45A28FFF21ECB93A009940AD /* WXTitleBarModule.m in Sources */,
+				45A2900021ECB93A009940AD /* WXScannerVC.m in Sources */,
+				45A2900121ECB93A009940AD /* main.m in Sources */,
+				45A2900221ECB93A009940AD /* ViewController.m in Sources */,
+				45A2900321ECB93A009940AD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DE750321ECADE100A71956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A28FC521ECB5D8009940AD /* OpenPage.m in Sources */,
+				45A28FC821ECB5D8009940AD /* PlaygroundUtil.m in Sources */,
+				45A28FC921ECB5D8009940AD /* WXEventModule.m in Sources */,
+				45A28FCE21ECB5D8009940AD /* CMLWeexRenderPage+Playground.m in Sources */,
+				45A28FCF21ECB5D8009940AD /* WXImgLoaderDefaultImpl.m in Sources */,
+				45A28FD021ECB5D8009940AD /* WXTitleBarModule.m in Sources */,
+				45A28FD221ECB5D8009940AD /* WXScannerVC.m in Sources */,
+				45A28FC221ECB5B0009940AD /* main.m in Sources */,
+				45A28FC321ECB5B0009940AD /* ViewController.m in Sources */,
+				45A28FC421ECB5B0009940AD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45A2900A21ECB93A009940AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56FAE8C6EE2FAAE95414A1CF /* Pods-CMLPlayground.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z499GZN3CY;
+				INFOPLIST_FILE = "Chameleon Playground copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = didi.Playground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45A2900B21ECB93A009940AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 081E794E89A966E582673D68 /* Pods-CMLPlayground.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z499GZN3CY;
+				INFOPLIST_FILE = "Chameleon Playground copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = didi.Playground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45DE743F21ECA31D00A71956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45DE744021ECA31D00A71956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45DE751A21ECADE300A71956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56FAE8C6EE2FAAE95414A1CF /* Pods-CMLPlayground.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z499GZN3CY;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = didi.Playground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45DE751B21ECADE300A71956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 081E794E89A966E582673D68 /* Pods-CMLPlayground.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z499GZN3CY;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = didi.Playground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45A2900921ECB93A009940AD /* Build configuration list for PBXNativeTarget "Chameleon Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A2900A21ECB93A009940AD /* Debug */,
+				45A2900B21ECB93A009940AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45DE742621ECA31B00A71956 /* Build configuration list for PBXProject "ChameleonPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DE743F21ECA31D00A71956 /* Debug */,
+				45DE744021ECA31D00A71956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45DE751C21ECADE300A71956 /* Build configuration list for PBXNativeTarget "Chameleon Playground Old" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DE751A21ECADE300A71956 /* Debug */,
+				45DE751B21ECADE300A71956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45DE742321ECA31B00A71956 /* Project object */;
+}
