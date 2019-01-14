@@ -1,3 +1,3 @@
 [submodule "chameleon-sdk-iOS"]
-	path = chameleon-sdk-iOS
+	path = ios/chameleon-sdk-iOS
 	url = git@git.xiaojukeji.com:beatles-component/chameleon-sdk-iOS.git
