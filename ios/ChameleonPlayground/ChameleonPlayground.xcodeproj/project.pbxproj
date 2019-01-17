@@ -95,7 +95,7 @@
 				45A28F8221ECB4E5009940AD /* Util */,
 				45DE752321ECAEDD00A71956 /* extend */,
 				45DE751F21ECAEDD00A71956 /* Scanner */,
-				45DE755021ECAEDE00A71956 /* Supporting Files */,
+				45DE755021ECAEDE00A71956 /* SupportingFiles */,
 				45DE755521ECAEDE00A71956 /* ViewController.h */,
 				45DE754B21ECAEDD00A71956 /* ViewController.m */,
 				45A28F8D21ECB52E009940AD /* DemoDefine.h */,
@@ -130,13 +130,13 @@
 			path = extend;
 			sourceTree = SOURCE_ROOT;
 		};
-		45DE755021ECAEDE00A71956 /* Supporting Files */ = {
+		45DE755021ECAEDE00A71956 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
 				45DE755121ECAEDE00A71956 /* main.m */,
 				45DE755221ECAEDE00A71956 /* Info.plist */,
 			);
-			path = "Supporting Files";
+			path = SupportingFiles;
 			sourceTree = SOURCE_ROOT;
 		};
 		A3A526444B53A0A99AD5CF78 /* Pods */ = {
@@ -420,7 +420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z499GZN3CY;
-				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -438,7 +438,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z499GZN3CY;
-				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
