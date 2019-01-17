@@ -50,7 +50,7 @@ static const void *navigationBarKey = &navigationBarKey;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.hideNavigationBar = NO;
+    self.hideNavigationBar = YES;
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -62,7 +62,7 @@ static const void *navigationBarKey = &navigationBarKey;
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    [self.navigationController setNavigationBarHidden:NO];
+    [self.navigationController setNavigationBarHidden:YES];
 }
 
 @end

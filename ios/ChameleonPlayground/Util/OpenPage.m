@@ -93,8 +93,10 @@
     // create page
     CMLWeexRenderPage *weexDemo = [[CMLWeexRenderPage alloc] initWithLoadUrl:url];
     weexDemo.service = [CMLEnvironmentManage chameleon].weexService;
+    
     CGRect cgrect = [UIScreen mainScreen].bounds;
-    weexDemo.CMLFrame = CGRectMake(0, 85, cgrect.size.width, cgrect.size.height - 85);
+    CGFloat cutLength = 0;
+    weexDemo.CMLFrame = CGRectMake(0, cutLength, cgrect.size.width, cgrect.size.height - cutLength);
     
     // show apge
     [self pushPage:weexDemo];

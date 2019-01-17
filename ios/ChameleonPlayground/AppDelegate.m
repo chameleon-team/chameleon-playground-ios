@@ -36,6 +36,7 @@
     
     // init navigationController
     UINavigationController *nvc = [[UINavigationController alloc] init];
+    [nvc setNavigationBarHidden:YES];
     self.window.rootViewController = nvc;
     
     // show window
