@@ -26,7 +26,7 @@
 		45A28F8B21ECB52E009940AD /* AppIconAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIconAssets.xcassets; sourceTree = SOURCE_ROOT; };
 		45A28F8C21ECB52E009940AD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		45A28F8D21ECB52E009940AD /* DemoDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoDefine.h; sourceTree = SOURCE_ROOT; };
-		45DE750721ECADE100A71956 /* Chameleon Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chameleon Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DE750721ECADE100A71956 /* ChameleonPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChameleonPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45DE752021ECAEDD00A71956 /* WXScannerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXScannerVC.h; sourceTree = "<group>"; };
 		45DE752121ECAEDD00A71956 /* WXScannerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXScannerVC.m; sourceTree = "<group>"; };
 		45DE752421ECAEDD00A71956 /* WXEventModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXEventModule.m; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 		45DE742C21ECA31B00A71956 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45DE750721ECADE100A71956 /* Chameleon Playground.app */,
+				45DE750721ECADE100A71956 /* ChameleonPlayground.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		45DE750621ECADE100A71956 /* Chameleon Playground */ = {
+		45DE750621ECADE100A71956 /* ChameleonPlayground */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45DE751C21ECADE300A71956 /* Build configuration list for PBXNativeTarget "Chameleon Playground" */;
+			buildConfigurationList = 45DE751C21ECADE300A71956 /* Build configuration list for PBXNativeTarget "ChameleonPlayground" */;
 			buildPhases = (
 				BBBD2B4B42055EEFD93947F2 /* [CP] Check Pods Manifest.lock */,
 				45DE750321ECADE100A71956 /* Sources */,
@@ -166,9 +166,9 @@
 			);
 			dependencies = (
 			);
-			name = "Chameleon Playground";
+			name = ChameleonPlayground;
 			productName = Playground;
-			productReference = 45DE750721ECADE100A71956 /* Chameleon Playground.app */;
+			productReference = 45DE750721ECADE100A71956 /* ChameleonPlayground.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -198,7 +198,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45DE750621ECADE100A71956 /* Chameleon Playground */,
+				45DE750621ECADE100A71956 /* ChameleonPlayground */,
 			);
 		};
 /* End PBXProject section */
@@ -455,7 +455,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45DE751C21ECADE300A71956 /* Build configuration list for PBXNativeTarget "Chameleon Playground" */ = {
+		45DE751C21ECADE300A71956 /* Build configuration list for PBXNativeTarget "ChameleonPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45DE751A21ECADE300A71956 /* Debug */,
