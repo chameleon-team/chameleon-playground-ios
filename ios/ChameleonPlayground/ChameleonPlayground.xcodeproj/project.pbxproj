@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24BB32ABF373B97F7F3ECC06 /* libPods-Chameleon Playground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 902813D2D668B6FB14444076 /* libPods-Chameleon Playground.a */; };
 		45A28FA821ECB52E009940AD /* AppIconAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A28F8B21ECB52E009940AD /* AppIconAssets.xcassets */; };
 		45A28FC221ECB5B0009940AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE755121ECAEDE00A71956 /* main.m */; };
 		45A28FC321ECB5B0009940AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE754B21ECAEDD00A71956 /* ViewController.m */; };
@@ -18,12 +17,9 @@
 		45A28FCF21ECB5D8009940AD /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE752A21ECAEDD00A71956 /* WXImgLoaderDefaultImpl.m */; };
 		45A28FD021ECB5D8009940AD /* WXTitleBarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE752B21ECAEDD00A71956 /* WXTitleBarModule.m */; };
 		45A28FD221ECB5D8009940AD /* WXScannerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE752121ECAEDD00A71956 /* WXScannerVC.m */; };
-		A0899365F055E919B0A71A40 /* libPods-CMLPlayground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 791CBE41C83C6F3A7B59E589 /* libPods-CMLPlayground.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		030193C33FCAFF46C57925CD /* Pods-ChameleonPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChameleonPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChameleonPlayground/Pods-ChameleonPlayground.release.xcconfig"; sourceTree = "<group>"; };
-		081E794E89A966E582673D68 /* Pods-CMLPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMLPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-CMLPlayground/Pods-CMLPlayground.release.xcconfig"; sourceTree = "<group>"; };
 		45A28F8321ECB4E5009940AD /* OpenPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenPage.m; sourceTree = "<group>"; };
 		45A28F8521ECB4E5009940AD /* OpenPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenPage.h; sourceTree = "<group>"; };
 		45A28F8A21ECB52E009940AD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -45,13 +41,8 @@
 		45DE755121ECAEDE00A71956 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45DE755221ECAEDE00A71956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45DE755521ECAEDE00A71956 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = SOURCE_ROOT; };
-		56FAE8C6EE2FAAE95414A1CF /* Pods-CMLPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMLPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMLPlayground/Pods-CMLPlayground.debug.xcconfig"; sourceTree = "<group>"; };
-		791CBE41C83C6F3A7B59E589 /* libPods-CMLPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CMLPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D372F1EFC7DF2E0B719AA69 /* Pods-Chameleon Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chameleon Playground.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chameleon Playground/Pods-Chameleon Playground.release.xcconfig"; sourceTree = "<group>"; };
 		81834EE2245F261A1BC1CCCE /* Pods-Chameleon Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chameleon Playground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chameleon Playground/Pods-Chameleon Playground.debug.xcconfig"; sourceTree = "<group>"; };
-		902813D2D668B6FB14444076 /* libPods-Chameleon Playground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Chameleon Playground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6A1547BD19AB46F25285F42 /* Pods-ChameleonPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChameleonPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChameleonPlayground/Pods-ChameleonPlayground.debug.xcconfig"; sourceTree = "<group>"; };
-		D6E1A90974DFC1B19F318B0D /* libPods-ChameleonPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChameleonPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0899365F055E919B0A71A40 /* libPods-CMLPlayground.a in Frameworks */,
-				24BB32ABF373B97F7F3ECC06 /* libPods-Chameleon Playground.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,10 +136,6 @@
 		A3A526444B53A0A99AD5CF78 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A6A1547BD19AB46F25285F42 /* Pods-ChameleonPlayground.debug.xcconfig */,
-				030193C33FCAFF46C57925CD /* Pods-ChameleonPlayground.release.xcconfig */,
-				56FAE8C6EE2FAAE95414A1CF /* Pods-CMLPlayground.debug.xcconfig */,
-				081E794E89A966E582673D68 /* Pods-CMLPlayground.release.xcconfig */,
 				81834EE2245F261A1BC1CCCE /* Pods-Chameleon Playground.debug.xcconfig */,
 				7D372F1EFC7DF2E0B719AA69 /* Pods-Chameleon Playground.release.xcconfig */,
 			);
@@ -160,9 +145,6 @@
 		D3E730F98151BBF3DA46D736 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D6E1A90974DFC1B19F318B0D /* libPods-ChameleonPlayground.a */,
-				791CBE41C83C6F3A7B59E589 /* libPods-CMLPlayground.a */,
-				902813D2D668B6FB14444076 /* libPods-Chameleon Playground.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
