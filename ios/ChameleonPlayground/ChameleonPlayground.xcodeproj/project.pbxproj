@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24BB32ABF373B97F7F3ECC06 /* libPods-Chameleon Playground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 902813D2D668B6FB14444076 /* libPods-Chameleon Playground.a */; };
 		45A28FA821ECB52E009940AD /* AppIconAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A28F8B21ECB52E009940AD /* AppIconAssets.xcassets */; };
 		45A28FC221ECB5B0009940AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE755121ECAEDE00A71956 /* main.m */; };
 		45A28FC321ECB5B0009940AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE754B21ECAEDD00A71956 /* ViewController.m */; };
@@ -46,6 +47,9 @@
 		45DE755521ECAEDE00A71956 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = SOURCE_ROOT; };
 		56FAE8C6EE2FAAE95414A1CF /* Pods-CMLPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMLPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMLPlayground/Pods-CMLPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 		791CBE41C83C6F3A7B59E589 /* libPods-CMLPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CMLPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D372F1EFC7DF2E0B719AA69 /* Pods-Chameleon Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chameleon Playground.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chameleon Playground/Pods-Chameleon Playground.release.xcconfig"; sourceTree = "<group>"; };
+		81834EE2245F261A1BC1CCCE /* Pods-Chameleon Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chameleon Playground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chameleon Playground/Pods-Chameleon Playground.debug.xcconfig"; sourceTree = "<group>"; };
+		902813D2D668B6FB14444076 /* libPods-Chameleon Playground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Chameleon Playground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A1547BD19AB46F25285F42 /* Pods-ChameleonPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChameleonPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChameleonPlayground/Pods-ChameleonPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 		D6E1A90974DFC1B19F318B0D /* libPods-ChameleonPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChameleonPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -56,6 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0899365F055E919B0A71A40 /* libPods-CMLPlayground.a in Frameworks */,
+				24BB32ABF373B97F7F3ECC06 /* libPods-Chameleon Playground.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +151,8 @@
 				030193C33FCAFF46C57925CD /* Pods-ChameleonPlayground.release.xcconfig */,
 				56FAE8C6EE2FAAE95414A1CF /* Pods-CMLPlayground.debug.xcconfig */,
 				081E794E89A966E582673D68 /* Pods-CMLPlayground.release.xcconfig */,
+				81834EE2245F261A1BC1CCCE /* Pods-Chameleon Playground.debug.xcconfig */,
+				7D372F1EFC7DF2E0B719AA69 /* Pods-Chameleon Playground.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -155,6 +162,7 @@
 			children = (
 				D6E1A90974DFC1B19F318B0D /* libPods-ChameleonPlayground.a */,
 				791CBE41C83C6F3A7B59E589 /* libPods-CMLPlayground.a */,
+				902813D2D668B6FB14444076 /* libPods-Chameleon Playground.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -233,7 +241,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CMLPlayground/Pods-CMLPlayground-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Chameleon Playground/Pods-Chameleon Playground-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/Chameleon/Chameleon.bundle",
 				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
 				"${PODS_ROOT}/WeexSDK/pre-build/weex-main-jsfm.js",
@@ -254,7 +262,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CMLPlayground/Pods-CMLPlayground-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chameleon Playground/Pods-Chameleon Playground-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BBBD2B4B42055EEFD93947F2 /* [CP] Check Pods Manifest.lock */ = {
@@ -272,7 +280,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CMLPlayground-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Chameleon Playground-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -415,9 +423,10 @@
 		};
 		45DE751A21ECADE300A71956 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56FAE8C6EE2FAAE95414A1CF /* Pods-CMLPlayground.debug.xcconfig */;
+			baseConfigurationReference = 81834EE2245F261A1BC1CCCE /* Pods-Chameleon Playground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/SupportingFiles/Info.plist";
@@ -434,9 +443,10 @@
 		};
 		45DE751B21ECADE300A71956 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 081E794E89A966E582673D68 /* Pods-CMLPlayground.release.xcconfig */;
+			baseConfigurationReference = 7D372F1EFC7DF2E0B719AA69 /* Pods-Chameleon Playground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/SupportingFiles/Info.plist";
