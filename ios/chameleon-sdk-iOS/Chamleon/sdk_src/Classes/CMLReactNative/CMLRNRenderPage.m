@@ -8,11 +8,11 @@
 #import "CMLRNRenderPage.h"
 
 #import <Masonry/Masonry.h>
-#import <React/RCTRootView.h>
+//#import <React/RCTRootView.h>
 
 @interface CMLRNRenderPage ()
 
-@property (nonatomic, strong) RCTRootView *rnView;
+//@property (nonatomic, strong) RCTRootView *rnView;
 
 @end
 
@@ -30,11 +30,11 @@
 
 - (void)loadJSBundle
 {
-    _rnView = [[RCTRootView alloc]initWithBundleURL:[NSURL URLWithString:@"http://www.example.com/static/wb/do1_4TC95ZmdUEV82LTiibIZ"] moduleName:@"Chameleon" initialProperties:nil launchOptions:nil];
-    [self.view addSubview:self.rnView];
-    [self.rnView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.right.top.bottom.equalTo(self.view);
-    }];
+//    _rnView = [[RCTRootView alloc]initWithBundleURL:[NSURL URLWithString:@"http://www.example.com/static/wb/do1_4TC95ZmdUEV82LTiibIZ"] moduleName:@"Chameleon" initialProperties:nil launchOptions:nil];
+//    [self.view addSubview:self.rnView];
+//    [self.rnView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.right.top.bottom.equalTo(self.view);
+//    }];
 }
 
 - (void)destroyInstance
