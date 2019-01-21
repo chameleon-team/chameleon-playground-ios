@@ -2,7 +2,7 @@
 
 platform :ios, '9.0'
 
-target 'Chameleon Playground' do
+target 'ChameleonPlayground' do
     
     #Chameleon
     pod 'Chameleon', :path => '../chameleon-sdk-iOS/Chamleon'
