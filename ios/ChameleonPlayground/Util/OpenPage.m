@@ -120,6 +120,7 @@
 {
     UIWindow *window = [UIApplication sharedApplication].keyWindow;
     UINavigationController *nvc = (UINavigationController *)window.rootViewController;
+    
     [nvc pushViewController:controller animated:YES];
 }
 
