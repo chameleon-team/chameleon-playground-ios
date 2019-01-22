@@ -4,7 +4,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "2688h",
-      "filename" : "iPhoneXMax@3x.png",
+      "filename" : "1242_2688.png",
       "minimum-system-version" : "12.0",
       "orientation" : "portrait",
       "scale" : "3x"
@@ -12,17 +12,8 @@
     {
       "extent" : "full-screen",
       "idiom" : "iphone",
-      "subtype" : "2688h",
-      "filename" : "iPhoneXMax@3x-2.png",
-      "minimum-system-version" : "12.0",
-      "orientation" : "landscape",
-      "scale" : "3x"
-    },
-    {
-      "extent" : "full-screen",
-      "idiom" : "iphone",
       "subtype" : "1792h",
-      "filename" : "iPhoneXMax@3x-1.png",
+      "filename" : "bg.png",
       "minimum-system-version" : "12.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -30,17 +21,8 @@
     {
       "extent" : "full-screen",
       "idiom" : "iphone",
-      "subtype" : "1792h",
-      "filename" : "iPhoneXMax@3x-3.png",
-      "minimum-system-version" : "12.0",
-      "orientation" : "landscape",
-      "scale" : "2x"
-    },
-    {
-      "extent" : "full-screen",
-      "idiom" : "iphone",
       "subtype" : "2436h",
-      "filename" : "iPhoneXMax@3x-4.png",
+      "filename" : "1125_2436.png",
       "minimum-system-version" : "11.0",
       "orientation" : "portrait",
       "scale" : "3x"
@@ -48,35 +30,17 @@
     {
       "extent" : "full-screen",
       "idiom" : "iphone",
-      "subtype" : "2436h",
-      "filename" : "iPhoneXMax@3x-5.png",
-      "minimum-system-version" : "11.0",
-      "orientation" : "landscape",
-      "scale" : "3x"
-    },
-    {
-      "extent" : "full-screen",
-      "idiom" : "iphone",
       "subtype" : "736h",
-      "filename" : "iPhoneXMax@3x-6.png",
+      "filename" : "1242_2208.png",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
-      "scale" : "3x"
-    },
-    {
-      "extent" : "full-screen",
-      "idiom" : "iphone",
-      "subtype" : "736h",
-      "filename" : "iPhoneXMax@3x-8.png",
-      "minimum-system-version" : "8.0",
-      "orientation" : "landscape",
       "scale" : "3x"
     },
     {
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "667h",
-      "filename" : "iPhoneXMax@3x-7.png",
+      "filename" : "750_1334.png",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -84,7 +48,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "iPhoneXMax@3x-9.png",
+      "filename" : "640_960-1.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"
@@ -93,7 +57,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "retina4",
-      "filename" : "iPhoneXMax@3x-10.png",
+      "filename" : "640_1136.png",
       "minimum-system-version" : "7.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -101,22 +65,35 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "iPhoneXMax@3x-11.png",
+      "filename" : "320_480.png",
       "extent" : "full-screen",
       "scale" : "1x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "iPhoneXMax@3x-12.png",
+      "filename" : "640_960.png",
       "extent" : "full-screen",
       "scale" : "2x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "iPhoneXMax@3x-13.png",
+      "filename" : "640_1136-1.png",
       "extent" : "full-screen",
+      "subtype" : "retina4",
+      "scale" : "2x"
+    },
+    {
+      "orientation" : "portrait",
+      "idiom" : "iphone",
+      "minimum-system-version" : "7.0",
+      "scale" : "2x"
+    },
+    {
+      "orientation" : "portrait",
+      "idiom" : "iphone",
+      "minimum-system-version" : "7.0",
       "subtype" : "retina4",
       "scale" : "2x"
     }
