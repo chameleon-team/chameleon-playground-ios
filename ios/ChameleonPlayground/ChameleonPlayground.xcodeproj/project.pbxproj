@@ -16,9 +16,9 @@
 		45A28FCF21ECB5D8009940AD /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE752A21ECAEDD00A71956 /* WXImgLoaderDefaultImpl.m */; };
 		45A28FD021ECB5D8009940AD /* WXTitleBarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE752B21ECAEDD00A71956 /* WXTitleBarModule.m */; };
 		45A28FD221ECB5D8009940AD /* WXScannerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE752121ECAEDD00A71956 /* WXScannerVC.m */; };
-		AC47A59A21F6DB2100B8F7BC /* chameleon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC47A59921F6DB2100B8F7BC /* chameleon.png */; };
 		AC47A59C21F6E2B200B8F7BC /* AppIconAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC47A59B21F6E2B200B8F7BC /* AppIconAssets.xcassets */; };
-		AC47A59E21F6F5C700B8F7BC /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AC47A59D21F6F5C700B8F7BC /* bg.png */; };
+		AC47A5A121F7013000B8F7BC /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AC47A59F21F7013000B8F7BC /* bg.png */; };
+		AC47A5A221F7013000B8F7BC /* chameleon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC47A5A021F7013000B8F7BC /* chameleon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,9 +44,9 @@
 		45DE755521ECAEDE00A71956 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = SOURCE_ROOT; };
 		7D372F1EFC7DF2E0B719AA69 /* Pods-Chameleon Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chameleon Playground.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chameleon Playground/Pods-Chameleon Playground.release.xcconfig"; sourceTree = "<group>"; };
 		81834EE2245F261A1BC1CCCE /* Pods-Chameleon Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chameleon Playground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chameleon Playground/Pods-Chameleon Playground.debug.xcconfig"; sourceTree = "<group>"; };
-		AC47A59921F6DB2100B8F7BC /* chameleon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chameleon.png; path = "../../../../../Desktop/启动页/chameleon.png"; sourceTree = "<group>"; };
 		AC47A59B21F6E2B200B8F7BC /* AppIconAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIconAssets.xcassets; sourceTree = "<group>"; };
-		AC47A59D21F6F5C700B8F7BC /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = ../../../../../Desktop/bg.png; sourceTree = "<group>"; };
+		AC47A59F21F7013000B8F7BC /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		AC47A5A021F7013000B8F7BC /* chameleon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chameleon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,9 +90,9 @@
 		45DE742D21ECA31B00A71956 /* CMLPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				AC47A59F21F7013000B8F7BC /* bg.png */,
+				AC47A5A021F7013000B8F7BC /* chameleon.png */,
 				AC47A59B21F6E2B200B8F7BC /* AppIconAssets.xcassets */,
-				AC47A59D21F6F5C700B8F7BC /* bg.png */,
-				AC47A59921F6DB2100B8F7BC /* chameleon.png */,
 				45A28F8221ECB4E5009940AD /* Util */,
 				45DE752321ECAEDD00A71956 /* extend */,
 				45DE751F21ECAEDD00A71956 /* Scanner */,
@@ -214,9 +214,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC47A59A21F6DB2100B8F7BC /* chameleon.png in Resources */,
+				AC47A5A121F7013000B8F7BC /* bg.png in Resources */,
 				AC47A59C21F6E2B200B8F7BC /* AppIconAssets.xcassets in Resources */,
-				AC47A59E21F6F5C700B8F7BC /* bg.png in Resources */,
+				AC47A5A221F7013000B8F7BC /* chameleon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
