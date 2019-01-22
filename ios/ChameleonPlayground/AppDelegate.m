@@ -82,37 +82,14 @@
     
     [self.window addSubview:splashView];
     
-    float animationDuration = 1.4;
-    CGFloat shrinkDuration = animationDuration * 0.3;
-    CGFloat growDuration = animationDuration * 0.7;
+    CGFloat growDuration = 2;
+    [UIView animateWithDuration:growDuration animations:^{
+        
+        splashView.alpha = 0;
+    } completion:^(BOOL finished) {
+        [splashView removeFromSuperview];
+    }];
     
-    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0) {
-        [UIView animateWithDuration:shrinkDuration delay:1.0 usingSpringWithDamping:0.7f initialSpringVelocity:10 options:UIViewAnimationOptionCurveEaseInOut animations:^{
-            CGAffineTransform scaleTransform = CGAffineTransformMakeScale(0.75, 0.75);
-            iconImageView.transform = scaleTransform;
-        } completion:^(BOOL finished) {
-            [UIView animateWithDuration:growDuration animations:^{
-                CGAffineTransform scaleTransform = CGAffineTransformMakeScale(20, 20);
-                iconImageView.transform = scaleTransform;
-                splashView.alpha = 0;
-            } completion:^(BOOL finished) {
-                [splashView removeFromSuperview];
-            }];
-        }];
-    } else {
-        [UIView animateWithDuration:shrinkDuration delay:1.0 options:0 animations:^{
-            CGAffineTransform scaleTransform = CGAffineTransformMakeScale(0.75, 0.75);
-            iconImageView.transform = scaleTransform;
-        } completion:^(BOOL finished) {
-            [UIView animateWithDuration:growDuration animations:^{
-                CGAffineTransform scaleTransform = CGAffineTransformMakeScale(20, 20);
-                iconImageView.transform = scaleTransform;
-                splashView.alpha = 0;
-            } completion:^(BOOL finished) {
-                [splashView removeFromSuperview];
-            }];
-        }];
-    }
 }
 
 - (void) initWeexSDK {
