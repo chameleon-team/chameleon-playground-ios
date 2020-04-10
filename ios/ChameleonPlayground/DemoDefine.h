@@ -20,5 +20,5 @@
 #import <Foundation/Foundation.h>
 
 //#define HOME_URL @"http://10.179.100.193/cml-playground.js"
-#define HOME_URL @"https://chameleon-team.github.io/cml_news/dist/web/wangyixinwen.html?cml_addr=https://chameleon-team.github.io/cml_news/dist/weex/wangyixinwen_3c00d318b845612bfb7c.js#/"
+#define HOME_URL @"https://api.didialift.com/proxy/static/pinche/gift/cml-playground/web/cml-playground.html?cml_addr=https://api.didialift.com/proxy/static/pinche/gift/cml-playground/weex/cml-playground.js#/index/"
 
